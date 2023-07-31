@@ -9,9 +9,9 @@ For classification, the algorithm identifies the k-nearest neighbors to the quer
 KNN does not build an explicit model during training but memorizes the entire training dataset, making it a lazy learning algorithm. It is a non-parametric method, meaning it does not make any assumptions about the underlying data distribution.
 One of the strengths of KNN is its simplicity and ease of implementation. It can be effective when the decision boundary is highly nonlinear or when there is no clear separation between classes. However, the algorithm can be computationally expensive, especially on large datasets, as it requires distance calculations for each query point with all training instances.
 To use KNN effectively, it is crucial to choose an appropriate value for "k" and use appropriate distance metrics to measure the similarity between data points. Additionally, preprocessing the data to scale features or handle missing values can significantly impact the algorithm's performance.
-# 4) Decision Trees and Random Forests
+# 4) Decision Tree and Random Forest
 # Decision Tree:
-A decision tree is a popular machine learning algorithm used for both classification and regression tasks. It is a supervised learning method that models data as a tree-like structure, where each internal node represents a decision based on one or more features, each branch represents an outcome of that decision, and each leaf node represents a class label (in classification) or a numeric value (in regression). Decision trees are easy to understand and interpret, making them particularly useful for gaining insights into the data and making decisions.
+A decision tree is a popular machine-learning algorithm used for both classification and regression tasks. It is a supervised learning method that models data as a tree-like structure, where each internal node represents a decision based on one or more features, each branch represents an outcome of that decision, and each leaf node represents a class label (in classification) or a numeric value (in regression). Decision trees are easy to understand and interpret, making them particularly useful for gaining insights into the data and making decisions.
 
 Key characteristics of decision trees:
 
